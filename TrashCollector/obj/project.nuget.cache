@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+zpdfa1CHYpCDns45z9UwEDfhFu6evmuajqTlAjmnfEUNA/GEmzt8KgcM6PFtZ99aE2j5Hukoo/5D2NZ2WNVdg==",
+  "dgSpecHash": "PPfHCvKfG31a2dccSKMnuWAzszFhi90AxZrmV9xzdy5g97cUf71YADkgYmI2TWNAsbJ/QnyNmp2Xtydju4Gdog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
+  "projectFilePath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.4\\microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.4\\microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512",
