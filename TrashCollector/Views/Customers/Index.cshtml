@@ -5,24 +5,52 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Customer Home Page</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
-    <thead>
+    <thead>        
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                <p><strong>Balance:&nbsp;</strong></p>
+
+                <form action="/action_page.php">
+                    <p>
+                        <label for="cars">Select or change weekly pickup day:&nbsp;</label><select id="days" name="days">
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thurday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday;</option>
+                        </select>&nbsp;<input type="submit" />
+                    </p>
+                </form>
+
+                <form action="/action_page.php">
+                    <label for="startDate">Trash Pickup Start Date:</label>
+                    <input id="startDate" name="startDate" type="date" />
+                    <input type="submit" />
+                </form>
+
+                <form action="/action_page.php">
+                    <label for="endDate">Trash Pickup End Date:&nbsp;&nbsp;</label>&nbsp;
+                    <input id="endDate" name="endDate" type="date" />
+                    <input type="submit" />
+                </form>
+
+                <form action="/action_page.php"><label for="extraPickup"> 
+                    <label for="extraPickup">Select&nbsp;<span style="color: red;">
+                    <strong>One-Time</strong>&nbsp;</span></label></label>
+                    <label for="extraPickup">Extra Trash Pickup:&nbsp;&nbsp;</label>
+                    <input id="endDate" name="endDate" type="date" /> 
+                    <input type="submit" /></form>
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdentityUser)
-            </th>
-            <th></th>
         </tr>
-    </thead>
-    <tbody>
+
+</table>
+
+    @*<tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -38,5 +66,5 @@
             </td>
         </tr>
 }
-    </tbody>
+    </tbody>*@
 </table>
