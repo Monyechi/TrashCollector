@@ -21,7 +21,7 @@ namespace TrashCollector.Controllers
         }
 
         // GET: Customers
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
 
@@ -127,7 +127,7 @@ namespace TrashCollector.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return View(customer);
             }
             ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", customer.IdentityUserId);
             return View(customer);
