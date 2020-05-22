@@ -23,21 +23,23 @@ namespace TrashCollector.Data
             .HasData(
             new IdentityRole
             {
+                Id = "b33dd34c-e638-41ac-ad7d-7b68ab478923",
                 Name = "Customer",
                 NormalizedName = "CUSTOMER"
             },
 
             new IdentityRole
             {
+                Id = "19e310c8-d429-4950-97a2-26c668d95e99",
                 Name = "Employee",
                 NormalizedName = "EMPLOYEE"
             }
             );
         }
 
-        public DbSet<TrashCollector.Models.Customer> Customer { get; set; }
+        public DbSet<Customer> Customer { get; set; }
 
-        public DbSet<TrashCollector.Models.Employee> Employee { get; set; }
+        public DbSet<Employee> Employee { get; set; }
     }
 }
 

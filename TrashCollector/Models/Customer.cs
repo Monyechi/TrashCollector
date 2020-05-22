@@ -13,13 +13,15 @@ namespace TrashCollector.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        [ForeignKey("IdentityUser")]
-        public string IdentityUserId { get; set; }
         public string WeeklyPickupDay { get; set; }
         public string ExtraOneTimePickup { get; set; }
+        public string Address { get; set; }
         public string StartDate { get; set; }
         public string EndDate { get; set; }
         public double Balance { get; set; }
+
+        [ForeignKey("IdentityUser")]
+        public string IdentityUserId { get; set; }
         public IdentityUser IdentityUser { get; set; }
     }
 }

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrashCollector.Data;
 
 namespace TrashCollector.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200522014638_AddedCustomerProperty")]
+    partial class AddedCustomerProperty
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,15 +50,15 @@ namespace TrashCollector.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b33dd34c-e638-41ac-ad7d-7b68ab478923",
-                            ConcurrencyStamp = "259bf67d-fabd-48de-943a-08f55da40e14",
+                            Id = "ab3c6dd6-8839-4c6a-9b49-39869b0d844a",
+                            ConcurrencyStamp = "23b40aa5-eaa8-4e8c-b527-d6fd043bf69c",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-                            Id = "19e310c8-d429-4950-97a2-26c668d95e99",
-                            ConcurrencyStamp = "29a56ccb-a7df-4ee2-bc7a-452f454b3341",
+                            Id = "c5a8ebeb-6a6e-4b5a-984b-c62c8413216b",
+                            ConcurrencyStamp = "8d471d0f-9d0a-4208-9d06-4df8779d465d",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         });
@@ -276,9 +278,6 @@ namespace TrashCollector.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("CompletedPickup")
                         .HasColumnType("bit");
 
@@ -290,6 +289,9 @@ namespace TrashCollector.Data.Migrations
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ZipCode")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

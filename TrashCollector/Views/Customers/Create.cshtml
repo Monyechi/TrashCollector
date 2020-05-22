@@ -2,7 +2,6 @@
 
 @{
     ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Create</h1>
@@ -17,10 +16,34 @@
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
+            </div>            
+                <div class="form-group">
+                    <label asp-for="WeeklyPickupDay">Select or change weekly pickup day:&nbsp;</label><select id="WeeklyPickupDay" name="WeeklyPickupDay">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thurday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday;</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ExtraOneTimePickup">Select One-Time Extra Trash Pickup Date:</label>
+                    <input type="date" id="ExtraOneTimePickup" name="ExtraOneTimePickup">
+                </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdentityUserId" class="control-label"></label>
-                <select asp-for="IdentityUserId" class ="form-control" asp-items="ViewBag.IdentityUserId"></select>
+                <label asp-for="StartDate">Trash Pickup Start Date:</label>
+                <input id="StartDate" name="StartDate" type="date" />
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate">Trash Pickup End Date:&nbsp;&nbsp;</label>&nbsp;
+                <input id="EndDate" name="EndDate" type="date" />
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
