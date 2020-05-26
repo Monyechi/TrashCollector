@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj": {}
+    "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Past Weeks\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj": {
+    "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Past Weeks\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
+        "projectUniqueName": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Past Weeks\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
         "projectName": "TrashCollector",
-        "projectPath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
+        "projectPath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Past Weeks\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
         "packagesPath": "C:\\Users\\monye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\obj\\",
+        "outputPath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Past Weeks\\Week 7\\Projects\\TrashCollector\\TrashCollector\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\monye\\AppData\\Roaming\\NuGet\\NuGet.Config",

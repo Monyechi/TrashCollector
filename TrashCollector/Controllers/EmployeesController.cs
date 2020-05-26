@@ -25,8 +25,16 @@ namespace TrashCollector.Controllers
         // GET: Employees
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Employee.Include(e => e.IdentityUser);
-            return View(await applicationDbContext.ToListAsync());
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var employee = _context.Employee.Where(c => c.IdentityUserId == userId).SingleOrDefault();
+
+            if (employee == null)
+            {
+                return RedirectToAction("Create");
+            }
+
+            return View(employee);
         }
 
         // GET: Employees/Details/5

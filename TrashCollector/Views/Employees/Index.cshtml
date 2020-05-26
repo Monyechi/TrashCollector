@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TrashCollector.Models.Employee>
+﻿@model TrashCollector.Models.Employee
 
 @{
     ViewData["Title"] = "Index";
@@ -20,7 +20,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@*foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
@@ -33,7 +33,7 @@
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
-        </tr>
+        </tr>*@
 }
     </tbody>
 </table>
