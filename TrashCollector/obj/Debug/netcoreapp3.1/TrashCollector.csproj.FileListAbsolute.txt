@@ -55,7 +55,6 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\Trash
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csprojAssemblyReference.cache
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.RazorAssemblyInfo.cache
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.RazorAssemblyInfo.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.AssemblyInfoInputs.cache
@@ -183,16 +182,6 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\Trash
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csproj.CoreCompileInputs.cache
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Create.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Delete.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Edit.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\CustomerList.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Create.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Delete.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -388,3 +377,13 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashColl
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.pdb
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.genruntimeconfig.cache
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Create.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Create.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Delete.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Edit.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csprojAssemblyReference.cache
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\CustomerProfile.cshtml.g.cs

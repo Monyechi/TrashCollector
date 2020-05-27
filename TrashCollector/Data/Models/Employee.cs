@@ -8,25 +8,12 @@ using System.Threading.Tasks;
 
 namespace TrashCollector.Models
 {
-    public class Customer
+    public class Employee
     {
         [Key]
-        public int Id { get; set; }
-
-        [Required]
+        public int EmployeeId { get; set; }
+        public int ZipCode { get; set; }
         public string Name { get; set; }
-        [Required]
-        public string WeeklyPickupDay { get; set; }
-        [Required]
-        public string ExtraOneTimePickup { get; set; }
-        [Required]
-        public string Address { get; set; }
-        [Required]
-        public string StartDate { get; set; }
-        [Required]
-        public string EndDate { get; set; }
-        [Required]
-        public double Balance { get; set; }
 
         [ForeignKey("IdentityUser")]
         public string IdentityUserId { get; set; }
