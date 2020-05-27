@@ -192,14 +192,20 @@ namespace TrashCollector.Controllers
             return View(customer);
         }
         // GET: Customer Profile
-        public void PickupStatus(Customer customer, bool pickupStatus)
+        public void PickupStatus(Customer customer, string pickupStatus)
         {
-            if (pickupStatus == true)
+            if (pickupStatus == "false")
+            {              
+
+
+            }
+            else if (pickupStatus == "true")
             {
-                customer.PickupComplete = true;
-
-
-
+                //customer.PickupComplete = true;
+                //double customerBalance = customer.Balance;
+                //double pickupFee = 10.50;
+                //customer.Balance = customerBalance + pickupFee;
+                //_context.SaveChanges();
             }
             
         }
