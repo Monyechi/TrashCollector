@@ -22,6 +22,7 @@ namespace TrashCollector.Models
         public string StartDate { get; set; }
         public string EndDate { get; set; }
         public double Balance { get; set; }
+        public bool PickupComplete { get; set; }
 
         [ForeignKey("IdentityUser")]
         public string IdentityUserId { get; set; }

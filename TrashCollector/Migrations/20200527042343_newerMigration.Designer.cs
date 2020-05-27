@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrashCollector.Data;
 
 namespace TrashCollector.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200527042343_newerMigration")]
+    partial class newerMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,15 +50,15 @@ namespace TrashCollector.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "4dc6be04-39bf-422d-93f5-9e18ef91b9e6",
-                            ConcurrencyStamp = "af5bf42e-af3e-492c-8add-cdfb07993c4c",
+                            Id = "61b4e5ad-a414-4fb8-ab4a-8cc58b6f250d",
+                            ConcurrencyStamp = "5e756607-545d-4135-b1e8-16f0e2e0d6f7",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-                            Id = "9d12dfe4-cf26-4726-bf34-8f5ed1867ad0",
-                            ConcurrencyStamp = "ed635188-f54b-4551-9639-1fadf620b6fc",
+                            Id = "cb4a1656-6154-4bcd-ac76-b176ca22533d",
+                            ConcurrencyStamp = "17b4f14f-225a-4ebd-aaa9-b9db3c54352d",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         });
@@ -290,6 +292,9 @@ namespace TrashCollector.Migrations
 
                     b.Property<string>("IdentityUserId")
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ZipCode")
                         .HasColumnType("int");

@@ -18,16 +18,6 @@
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="WeeklyPickupDay" class="control-label"></label>
-                <input asp-for="WeeklyPickupDay" class="form-control" />
-                <span asp-validation-for="WeeklyPickupDay" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ExtraOneTimePickup" class="control-label"></label>
-                <input asp-for="ExtraOneTimePickup" class="form-control" />
-                <span asp-validation-for="ExtraOneTimePickup" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="StreetAddress" class="control-label"></label>
                 <input asp-for="StreetAddress" class="form-control" />
                 <span asp-validation-for="StreetAddress" class="text-danger"></span>
@@ -48,23 +38,31 @@
                 <span asp-validation-for="ZipCode" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="StartDate" class="control-label"></label>
-                <input asp-for="StartDate" class="form-control" />
-                <span asp-validation-for="StartDate" class="text-danger"></span>
+                <label asp-for="WeeklyPickupDay">Select or change weekly pickup day:&nbsp;</label><select id="WeeklyPickupDay" name="WeeklyPickupDay">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thurday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday;</option>
+                </select>
             </div>
             <div class="form-group">
-                <label asp-for="EndDate" class="control-label"></label>
-                <input asp-for="EndDate" class="form-control" />
-                <span asp-validation-for="EndDate" class="text-danger"></span>
+                <label asp-for="ExtraOneTimePickup">1x Extra Pickup Date:&nbsp;&nbsp;</label>&nbsp;
+                <input id="ExtraOneTimePickup" name="ExtraOneTimePickup" type="date" />
             </div>
             <div class="form-group">
-                <label asp-for="Balance" class="control-label"></label>
-                <input asp-for="Balance" class="form-control" />
-                <span asp-validation-for="Balance" class="text-danger"></span>
+                <label asp-for="StartDate">Trash Pickup Start Date:</label>
+                <input id="StartDate" name="StartDate" type="date" />
             </div>
             <div class="form-group">
+                <label asp-for="EndDate">Trash Pickup End Date:&nbsp;&nbsp;</label>&nbsp;
+                <input id="EndDate" name="EndDate" type="date" />
+            </div>
+            <div hidden class="form-group">
                 <label asp-for="IdentityUserId" class="control-label"></label>
-                <select asp-for="IdentityUserId" class ="form-control" asp-items="ViewBag.IdentityUserId"></select>
+                <select asp-for="IdentityUserId" class="form-control" asp-items="ViewBag.IdentityUserId"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

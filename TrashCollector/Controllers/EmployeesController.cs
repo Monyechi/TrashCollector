@@ -173,7 +173,7 @@ namespace TrashCollector.Controllers
             return _context.Employees.Any(e => e.EmployeeId == id);
         }
 
-        // GET: Employees
+        // GET: Customer Profile
         public async Task<IActionResult> CustomerProfile(int? id)
         {
             if (id == null)
@@ -190,6 +190,18 @@ namespace TrashCollector.Controllers
             }
 
             return View(customer);
+        }
+        // GET: Customer Profile
+        public void PickupStatus(Customer customer, bool pickupStatus)
+        {
+            if (pickupStatus == true)
+            {
+                customer.PickupComplete = true;
+
+
+
+            }
+            
         }
 
     }
