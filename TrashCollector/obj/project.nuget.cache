@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BwYa8k1s0iCgLIB4d+0LoVCe/M82vVtaK/O4E8HnJegh/oYTG8RW9aQ9RcLVHNQIZliF404UiOhGUK/CbjEw5w==",
+  "dgSpecHash": "1Niqw9y5TafOV4jNdqfLH6jG/0vu/oZ7V0NXiuZTfSIfsST70ZGcfF0m3kCuXY8j/eN64Sk4QtYhU3G8oE7i4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 7\\Projects\\TrashCollector\\TrashCollector\\TrashCollector.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\monye\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
+    "C:\\Users\\monye\\.nuget\\packages\\google.apis.auth\\1.45.0\\google.apis.auth.1.45.0.nupkg.sha512",
+    "C:\\Users\\monye\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
+    "C:\\Users\\monye\\.nuget\\packages\\google.apis.youtube.v3\\1.45.0.1929\\google.apis.youtube.v3.1.45.0.1929.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.4\\microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.4\\microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.4\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.4.nupkg.sha512",
@@ -64,7 +68,7 @@
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\monye\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\monye\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

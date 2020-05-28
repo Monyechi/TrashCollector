@@ -1,12 +1,14 @@
-﻿@model IEnumerable<TrashCollector.Models.Customer>
+﻿@model TrashCollector.Models.EmployeeWeekdayViewModel
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Today's Pickups! </h1> <form action="/action_page.php">
-    <p>
-        Filter by day:<br /><select name="Todays_Day">
+<h1>Today's Pickups! </h1> 
+
+            <form asp-action="PickupsByDay">
+    <p>        
+        Filter by day:<br /><select asp-for="@Model.SelectedDay" name="dayOfTheWk">
             <option selected="selected" value=""></option>
             <option value="Monday">Monday</option>
             <option value="Tuesday">Tuesday</option>
@@ -14,8 +16,8 @@
             <option value="Thursday">Thursday</option>
             <option value="Friday">Friday</option>
             <option value="Saturday">Saturday</option>
-            <option value="Sunday">Sunday</option>
-        </select><br /><input type="submit" value="Submit" />
+            <option value="Sunday">Sunday</option></select><br />
+            <input type="submit">
     </p>
 </form>
 
@@ -25,13 +27,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @Html.DisplayNameFor(model => model.Customers)
             </th>         
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Customers) {
         <tr>
             <td>
                 <a asp-action="CustomerProfile" asp-route-id="@item.CustomerId">@Html.DisplayFor(modelItem => item.Name)</a>

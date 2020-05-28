@@ -179,9 +179,6 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\Trash
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csproj.CoreCompileInputs.cache
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Past Weeks\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -386,4 +383,13 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\Trash
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\CustomerProfile.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\Razor\Views\Employees\PickupsByDay.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\bin\Debug\netcoreapp3.1\Google.Apis.YouTube.v3.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csproj.CoreCompileInputs.cache
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 7\Projects\TrashCollector\TrashCollector\obj\Debug\netcoreapp3.1\TrashCollector.csprojAssemblyReference.cache

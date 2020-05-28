@@ -23,8 +23,9 @@ namespace TrashCollector.Controllers
         }
 
         // GET: Employees
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? dayOfTheWk)
         {
+            EmployeeWeekdayViewModel viewModel = new EmployeeWeekdayViewModel();
             var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
             var employeeLoggedIn = _context.Employees.Where(e => e.IdentityUserId == userId).SingleOrDefault();
 
@@ -34,9 +35,10 @@ namespace TrashCollector.Controllers
             }
             DayOfWeek wk = DateTime.Today.DayOfWeek;
             var customersWithPickupToday= _context.Customers.Where(c => c.ZipCode == employeeLoggedIn.ZipCode).Where(c => c.WeeklyPickupDay == wk.ToString()).ToList();
-           
+            viewModel.Customers = customersWithPickupToday;
+            var customersForDay = viewModel.Customers;
 
-            return View(customersWithPickupToday);
+            return View(viewModel);
 
         }
 
@@ -209,6 +211,22 @@ namespace TrashCollector.Controllers
             }
             
         }
+        [HttpPost]
+        public async Task<IActionResult> PickupsByDay(string? dayOfTheWk, Customer customer)
+        {
+
+            EmployeeWeekdayViewModel viewModel = new EmployeeWeekdayViewModel();
+
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var employeeLoggedIn = _context.Employees.Where(e => e.IdentityUserId == userId).SingleOrDefault();
+            var customersWithSelectedDay = _context.Customers.Where(c => c.ZipCode == employeeLoggedIn.ZipCode).Where(c => c.WeeklyPickupDay == dayOfTheWk).ToList();
+            viewModel.Customers = customersWithSelectedDay;
+            //set property of string in viewModel to string passed in from view.
+            viewModel.Customers = customersWithSelectedDay;
+            var customersForDay = viewModel.Customers;
+            return View(viewModel);
+        }
+
 
     }
 }
